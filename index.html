@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toufa-e-Ishq | Special Gifts</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <header>
+    <nav class="navbar">
+
+
+  <a href="#" class="logo">
+    <span>❀</span>
+    Toufa-e-Ishq
+  </a>
+
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#collection">Collection</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <button class="menu-btn" id="menuBtn">☰</button>
+
+</nav>
+
+
+  </header>
+
+  <!-- Hero Section -->
+
+  <main>
+
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
+
+    <p class="small-title">MADE WITH LOVE ✨</p>
+
+    <h1>
+      Har Rishta Hai
+      <span>Khaas</span>
+    </h1>
+
+    <p class="hero-text">
+      Apne pyaare logon ke liye chuniye ek khoobsurat
+      aur yaadgaar tohfa.
+    </p>
+
+    <a href="#collection" class="shop-btn">
+      Explore Gifts
+      <span>→</span>
+    </a>
+
+  </div>
+
+  <div class="hero-image">
+
+    <div class="circle"></div>
+
+    <div class="gift-box">
+
+  <img
+    src="images/hero-frame.jpg"
+    alt="Toufa-e-Ishq Customized Frame"
+  >
+
+</div>
+
+  </div>
+
+</section>
+
+<!-- Collection -->
+<section class="collection" id="collection">
+
+  <div class="section-heading">
+
+    <p>OUR COLLECTION</p>
+
+    <h2>Beautiful Customized Frames</h2>
+
+    <div class="line"></div>
+
+    <p class="collection-text">
+      Apne special person ke liye ek pyara aur yaadgaar gift choose karein. 💚
+    </p>
+
+  </div>
+
+
+  <div class="products">
+
+    <!-- Product 1 -->
+
+    <article class="card">
+
+      <div class="product-image">
+
+        <img
+          src="images/frame1.jpg"
+          alt="Customized Birthday Frame"
+        >
+
+        <span class="price-tag">₹799</span>
+
+      </div>
+
+      <h3>Customized Birthday Frame</h3>
+
+      <p>
+        Naam, birthday message aur special design ke saath
+        personalized frame.
+      </p>
+
+      <div class="product-price">₹799</div>
+
+      <button onclick="orderProduct('Customized Birthday Frame')">
+        Order on WhatsApp
+      </button>
+
+    </article>
+
+
+    <!-- Product 2 -->
+
+    <article class="card">
+
+      <div class="product-image">
+
+        <img
+          src="images/frame2.jpg"
+          alt="Happy Birthday Name Frame"
+        >
+
+        <span class="price-tag">₹799</span>
+
+      </div>
+
+      <h3>Happy Birthday Name Frame</h3>
+
+      <p>
+        Birthday wishes, name aur beautiful floral design
+        ke saath special frame.
+      </p>
+
+      <div class="product-price">₹799</div>
+
+      <button onclick="orderProduct('Happy Birthday Name Frame')">
+        Order on WhatsApp
+      </button>
+
+    </article>
+
+
+    <!-- Product 3 -->
+
+    <article class="card">
+
+      <div class="product-image">
+
+        <img
+          src="images/frame3.jpg"
+          alt="Customized Islamic Frame"
+        >
+
+        <span class="price-tag">₹799</span>
+
+      </div>
+
+      <h3>Customized Islamic Frame</h3>
+
+      <p>
+        Arabic calligraphy, names aur special date ke
+        saath elegant customized frame.
+      </p>
+
+      <div class="product-price">₹799</div>
+
+      <button onclick="orderProduct('Customized Islamic Frame')">
+        Order on WhatsApp
+      </button>
+
+    </article>
+
+
+    <!-- Product 4 -->
+
+    <article class="card">
+
+      <div class="product-image">
+
+        <img
+          src="images/frame4.jpg"
+          alt="Premium Birthday Frame"
+        >
+
+        <span class="price-tag">₹799</span>
+
+      </div>
+
+      <h3>Premium Birthday Frame</h3>
+
+      <p>
+        Premium birthday design aur personalized message
+        ke saath memorable gift.
+      </p>
+
+      <div class="product-price">₹799</div>
+
+      <button onclick="orderProduct('Premium Birthday Frame')">
+        Order on WhatsApp
+      </button>
+
+    </article>
+
+  </div>
+
+</section>
+
+  <div class="section-heading">
+
+    <p>OUR COLLECTION</p>
+
+    <h2>Special Gifts for Special People</h2>
+
+    <div class="line"></div>
+
+  </div>
+
+  <div class="products">
+
+    <article class="card">
+
+      <div class="product-image">
+        <span>🎁</span>
+      </div>
+
+      <h3>Personalized Gift Box</h3>
+
+      <p>Ek khoobsurat gift jo dil se diya gaya ho.</p>
+
+      <button onclick="showMessage('Personalized Gift Box')">
+        View Gift
+      </button>
+
+    </article>
+
+    <article class="card">
+
+      <div class="product-image">
+        <span>🌹</span>
+      </div>
+
+      <h3>Love & Memories Box</h3>
+
+      <p>Apni yaadon ko ek khaas tohfe mein badaliye.</p>
+
+      <button onclick="showMessage('Love & Memories Box')">
+        View Gift
+      </button>
+
+    </article>
+
+    <article class="card">
+
+      <div class="product-image">
+        <span>✨</span>
+      </div>
+
+      <h3>Premium Surprise Box</h3>
+
+      <p>Har occasion ke liye ek perfect surprise.</p>
+
+      <button onclick="showMessage('Premium Surprise Box')">
+        View Gift
+      </button>
+
+    </article>
+
+  </div>
+
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+
+  <div class="about-icon">♡</div>
+
+  <div>
+
+    <p class="small-title">ABOUT TOUFA-E-ISHQ</p>
+
+    <h2>Tohfa sirf ek cheez nahi, ek ehsaas hota hai.</h2>
+
+    <p>
+      Toufa-e-Ishq par hum har gift ko pyaar, khushi aur
+      khoobsurat yaadon ke saath khaas banane ki koshish karte hain.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+
+  <p class="small-title">CONTACT TO ORDER</p>
+
+  <h2>Apna Special Gift Aaj Hi Order Karein 💚</h2>
+
+  <p class="contact-description">
+    Customized frames aur special gifts ke liye humse
+    WhatsApp par contact karein.
+  </p>
+
+
+  <div class="contact-boxes">
+
+    <a href="tel:933922**" class="contact-card">
+
+      <div class="contact-icon">📞</div>
+
+      <div>
+
+        <span>Call Us</span>
+
+        <strong>933922****</strong>
+
+      </div>
+
+    </a>
+
+
+    <a
+      href="#"
+      class="contact-card"
+      onclick="openWhatsApp()"
+    >
+
+      <div class="contact-icon">💬</div>
+
+      <div>
+
+        <span>WhatsApp</span>
+
+        <strong>933922****</strong>
+
+      </div>
+
+    </a>
+
+  </div>
+
+</section>
+```
+
+  </main>
+
+  <!-- Footer -->
+
+  <footer id="contact">
+
+```
+<h2>Toufa-e-Ishq</h2>
+
+<p>Made with love, packed with memories. ✨</p>
+
+<p class="copyright">
+  © 2026 Toufa-e-Ishq. All Rights Reserved.
+</p>
+```
+
+  </footer>
+
+  <!-- Popup -->
+
+  <div class="popup" id="popup">
+
+```
+<div class="popup-box">
+
+  <button class="close-btn" onclick="closePopup()">×</button>
+
+  <div class="popup-icon">💚</div>
+
+  <h2 id="popupTitle">Toufa-e-Ishq</h2>
+
+  <p id="popupText">
+    Thank you for visiting our collection!
+  </p>
+
+  <button onclick="closePopup()">Okay</button>
+
+</div>
+```
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
